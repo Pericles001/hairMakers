@@ -1,0 +1,153 @@
+/* General styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header.masthead {
+    background-color: #343a40;
+    padding: 10px 0;
+    color: white;
+}
+
+header.masthead img {
+    margin-right: 10px;
+}
+
+nav.nav-masthead {
+    display: flex;
+    justify-content: center;
+}
+
+nav.nav-masthead a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.nav-masthead a:hover, nav.nav-masthead a.active {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main.cover {
+    padding: 50px 0;
+}
+
+.hero-banner {
+    background-color: #6c757d;
+    color: white;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.hero-banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-banner .lead {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.hero-banner .btn {
+    background-color: #ffce00;
+    color: #212529;
+}
+
+.hero-banner .btn:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Carousel section */
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Three columns under banner */
+.row article {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.row article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.row article h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.row article p {
+    color: #6c757d;
+}
+
+/* Footer styles */
+footer.mastfoot {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+footer.mastfoot .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.mastfoot img {
+    max-width: 100px;
+}
+
+footer.mastfoot p {
+    margin: 0;
+    color: #adb5bd;
+}
+
+/* Small logo in footer */
+footer.mastfoot img {
+    max-width: 50px;
+}
+
+/* Button styling */
+.btn-lg {
+    padding: 10px 25px;
+    font-size: 1.25em;
+}
+
+/* Interactivity for buttons */
+.btn:hover {
+    background-color: #ffc107;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .hero-banner h1 {
+        font-size: 2.5em;
+    }
+    
+    .carousel .carousel-inner img {
+        height: 300px;
+    }
+
+    .row article h3 {
+        font-size: 1.2em;
+    }
+}
